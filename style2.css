@@ -1,5 +1,19 @@
 /*----------------------------------------------------
-thor E-mail: rockybd1995@gmail.com
+@File: Default Styles
+@Author: Rocky Ahmed
+@URL: http://wethemez.com
+Author E-mail: rockybd1995@gmail.com
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: Builder Construction 
+@Author: Rocky Ahmed
+@Developed By: Rocky Ahmed
+@Developer URL: http://rocky.wethemez.com
+Author E-mail: rockybd1995@gmail.com
 
 @Default Styles
 
@@ -27,6 +41,74 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
+
+
+
+
+ 
+
+.share-btn-container {
+  transform: unset;
+  justify-content: center;
+    top: unset;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  margin:5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.share-btn-container a i {
+  font-size: 25px;
+}
+
+.share-btn-container a {
+  margin: 10px 0;
+  margin-left:22px;
+  transition: 500ms;
+}
+
+.share-btn-container a:hover {
+  transform: scale(1.2);
+}
+
+.share-btn-container .fa-facebook {
+  color: #3b5998;
+}
+
+.share-btn-container .fa-twitter {
+  color: #1da1f2;
+}
+
+.share-btn-container .fa-linkedin {
+  color: #0077b5;
+}
+
+
+.share-btn-container .fa-instagram {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.share-btn-container .fa-pinterest {
+  color: #bd081c;
+}
+
+.share-btn-container .fa-whatsapp {
+  color: #25d366;
+}
+
+
+
+
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
